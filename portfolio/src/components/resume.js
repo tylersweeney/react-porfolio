@@ -17,10 +17,10 @@ class Resume extends Component {
                            style={{height: '200px'}}
                            />
                        </div>
-                       <h2 style={{paddingTop: '2em'}}>Tyler Sweeney</h2>
-                       <h4 style={{color: 'gray'}}>Programmer</h4>
+                       <h2 style={{paddingTop: '2em'}}>Tyler J. Sweeney</h2>
+                       <h4 style={{color: 'gray'}}>Full Stack Web Developer</h4>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, corporis voluptates excepturi officia deserunt tempora quasi doloremque voluptas dicta, voluptate est nesciunt iure provident. Corrupti inventore a ducimus vitae consequuntur.</p>
+                       <p>I am a Full Stack Web Developer with 3+ years experience developing apps and websites. I have worked on contract jobs and individual projects that required knowledge of all aspects from front end to back end, start to finish. I have experience using both Angular and React frameworks. I like to use React because it is expressive, readable, and quick to develop.</p>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                        <h5>Address</h5>
                        <p>164 Albert Place, Costa Mesa, Ca 92627</p>
@@ -53,7 +53,7 @@ class Resume extends Component {
                         <Experience 
                         startYear={2016}
                         endYear={2017}
-                        jobName="ACRB Supply Co."
+                        jobName="UCI Web Dev Bootcamp"
                         jobDescription= 
                             "Built a full-stack secure, stable, and scalable website and integrated Shopify e-commerce framework.
                             Perform keyword Analysis for Search Engine Optimization & Marketing.
@@ -63,20 +63,6 @@ class Resume extends Component {
                             Make requested content changes in a fast-paced environment.
                             Technologies used: React, Node, Adsense, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
                        
-                        />
-                        <Experience 
-                        startYear={2016}
-                        endYear={2017}
-                        jobName="ACRB Supply Co."
-                        jobDescription= 
-                            "Built a full-stack secure, stable, and scalable website and integrated Shopify e-commerce framework.
-                            Perform keyword Analysis for Search Engine Optimization & Marketing.
-                            Create monthly SEO strategy reports.
-                            Wrote programs to perform regular search audits.
-                            Author Pay Per Click (PPC) campaigns.
-                            Make requested content changes in a fast-paced environment.
-                            Technologies used: React, Node, Adsense, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
-                                             
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
