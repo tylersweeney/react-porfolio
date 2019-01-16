@@ -70,7 +70,21 @@ class Projects extends Component {
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button colored><a href="https://tylersweeney.github.io/futuramaHangman/">LiveDemo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 
+                        'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center /cover'}}>SpaceBalls: The RPG</CardTitle>
+                        <CardText>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, qui nostrum quo excepturi aperiam eveniet, perspiciatis beatae omnis laudantium, natus dolores tempora cupiditate modi. Modi vitae eaque fugit porro dicta!</CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                            <Button colored>CodePen</Button>
+                            <Button colored><a href="https://tylersweeney.github.io/spaceBallsTheGame/">LiveDemo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
