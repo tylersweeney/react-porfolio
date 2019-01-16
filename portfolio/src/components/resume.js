@@ -18,9 +18,9 @@ class Resume extends Component {
                        </div>
                        <h2 style={{paddingTop: '2em'}}>Tyler Sweeney</h2>
                        <h4 style={{color: 'gray'}}>Programmer</h4>
-                       <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                       <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, corporis voluptates excepturi officia deserunt tempora quasi doloremque voluptas dicta, voluptate est nesciunt iure provident. Corrupti inventore a ducimus vitae consequuntur.</p>
-                       <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                       <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                        <h5>Address</h5>
                        <p>164 Albert Place, Costa Mesa, Ca 92627</p>
                        <h5>Phone</h5>
@@ -29,7 +29,7 @@ class Resume extends Component {
                        <p>tjs@tylerjsweeney.com</p>
                        <h5>Web</h5>
                        <p>tylerjsweeney.com</p>
-                       <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
+                       <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                    </Cell>
                    <Cell className="resume-right-col" col={8}>
 
