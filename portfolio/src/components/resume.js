@@ -47,9 +47,7 @@ class Resume extends Component {
                         schoolDescription="Java and Python"/>
 
                         <hr style={{borderTop: '3px solid #e22947'}} />
-
-                        <h2>Experience</h2>
-
+  
                         <Experience 
                         startYear={2016}
                         endYear={2017}

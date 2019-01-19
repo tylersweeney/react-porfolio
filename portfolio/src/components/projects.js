@@ -65,29 +65,27 @@ class Projects extends Component {
                     {/* Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
-                        'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center /cover'}}>Futurama Hangman</CardTitle>
+                        'url(https://i.imgur.com/eYP0NWb.png) center /cover'}}>Futurama Hangman</CardTitle>
                         <CardText>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, qui nostrum quo excepturi aperiam eveniet, perspiciatis beatae omnis laudantium, natus dolores tempora cupiditate modi. Modi vitae eaque fugit porro dicta!</CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored><a href="https://tylersweeney.github.io/futuramaHangman/">LiveDemo</a></Button>
+                            <Button colored><a href="https://tylersweeney.github.io/futuramaHangman/" target="_blank">LiveDemo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
                         </CardMenu>
                     </Card>
 
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
-                        'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center /cover'}}>SpaceBalls: The RPG</CardTitle>
+                        'url(https://i.imgur.com/Xjj8Ueq.png) center /cover'}}>SpaceBalls: The RPG</CardTitle>
                         <CardText>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, qui nostrum quo excepturi aperiam eveniet, perspiciatis beatae omnis laudantium, natus dolores tempora cupiditate modi. Modi vitae eaque fugit porro dicta!</CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored><a href="https://tylersweeney.github.io/spaceBallsTheGame/">LiveDemo</a></Button>
+                            <Button colored><a href="https://tylersweeney.github.io/spaceBallsTheGame/" target="_blank">LiveDemo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
                         </CardMenu>
                     </Card>
                     </div>
@@ -98,7 +96,7 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 3){
             return(
-                <div><h1>This is MongoDB</h1></div>
+                <div><h1>This is Full Stack Site</h1></div>
             )
         }
     }
@@ -111,8 +109,8 @@ class Projects extends Component {
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>
-                    <Tab>VueJS</Tab>
-                    <Tab>MongoDB</Tab>
+                    <Tab>Databases</Tab>
+                    <Tab>Full Stack Site</Tab>
                 </Tabs>
 
                     <Grid>
