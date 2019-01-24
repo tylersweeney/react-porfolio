@@ -13,6 +13,8 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                     {/* Project 1 */}
+                    <Grid>
+                        <Cell col={4}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center /cover'}}>React Project #1</CardTitle>
@@ -26,7 +28,8 @@ class Projects extends Component {
                         <IconButton name="share" />
                         </CardMenu>
                     </Card>
-
+                    </Cell>
+                    <Cell col={4}>
                     {/* Project 2 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
@@ -41,7 +44,8 @@ class Projects extends Component {
                     <IconButton name="share" />
                     </CardMenu>
                 </Card>
-
+                </Cell>
+                <Cell col={4}>
                     {/* // Project 3 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
@@ -56,6 +60,8 @@ class Projects extends Component {
                     <IconButton name="share" />
                     </CardMenu>
                 </Card>
+                </Cell>
+                </Grid>
                 </div>
 
             )
@@ -63,6 +69,8 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                     {/* Project 1 */}
+                    <Grid>
+                        <Cell col={4}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://i.imgur.com/eYP0NWb.png) center /cover'}}>Futurama Hangman</CardTitle>
@@ -70,12 +78,13 @@ class Projects extends Component {
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored><a href="https://tylersweeney.github.io/futuramaHangman/" target="_blank">LiveDemo</a></Button>
+                            <Button colored><a href="https://tylersweeney.github.io/futuramaHangman/" target="_blank" rel="noopener noreferrer">LiveDemo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                         </CardMenu>
                     </Card>
-
+                    </Cell>
+                    <Cell col={4}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://i.imgur.com/Xjj8Ueq.png) center /cover'}}>SpaceBalls: The RPG</CardTitle>
@@ -83,11 +92,13 @@ class Projects extends Component {
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored><a href="https://tylersweeney.github.io/spaceBallsTheGame/" target="_blank">LiveDemo</a></Button>
+                            <Button colored><a href="https://tylersweeney.github.io/spaceBallsTheGame/" target="_blank" rel="noopener noreferrer">LiveDemo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                         </CardMenu>
                     </Card>
+                    </Cell>
+                    </Grid>
                     </div>
             )
         } else if(this.state.activeTab === 2) {
@@ -114,7 +125,7 @@ class Projects extends Component {
                 </Tabs>
 
                     <Grid>
-                        <Cell col={12}>
+                        <Cell col={12} >
                             <div className="content">{this.toggleCategories()}</div>
                         </Cell>
                     </Grid>
