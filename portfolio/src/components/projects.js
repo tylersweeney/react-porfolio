@@ -17,12 +17,12 @@ class Projects extends Component {
                         <Cell col={4}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
-                        'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center /cover'}}>React Project #1</CardTitle>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, qui nostrum quo excepturi aperiam eveniet, perspiciatis beatae omnis laudantium, natus dolores tempora cupiditate modi. Modi vitae eaque fugit porro dicta!</CardText>
+                        'url(https://i.imgur.com/SpFiqYF.png) center /cover'}}>React Project #1</CardTitle>
+                        <CardText>A simple project management tool with authentication and cloud functions created with React, Redux & Firebase.</CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <Button colored><a href="https://ty-sweeney-planner.firebaseapp.com/" target="_blank" rel="noopener noreferrer">LiveDemo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
@@ -70,7 +70,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Grid>
-                        <Cell col={4}>
+                        <Cell col={6}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://i.imgur.com/eYP0NWb.png) center /cover'}}>Futurama Hangman</CardTitle>
@@ -84,7 +84,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     </Cell>
-                    <Cell col={4}>
+                    <Cell col={6}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://i.imgur.com/Xjj8Ueq.png) center /cover'}}>SpaceBalls: The RPG</CardTitle>
