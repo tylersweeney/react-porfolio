@@ -53,13 +53,22 @@ class Resume extends Component {
                         endYear={2017}
                         jobName="UCI Web Dev Bootcamp"
                         jobDescription= 
-                            "Built a full-stack secure, stable, and scalable website and integrated Shopify e-commerce framework.
-                            Perform keyword Analysis for Search Engine Optimization & Marketing.
-                            Create monthly SEO strategy reports.
-                            Wrote programs to perform regular search audits.
-                            Author Pay Per Click (PPC) campaigns.
-                            Make requested content changes in a fast-paced environment.
-                            Technologies used: React, Node, Adsense, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
+                            "24 week intensive Full Stack Developer Bootcamp
+
+                            Participated in several group projects that involved coming up with an idea for an app and creating the project start to finish backend to front end.
+
+                            Created personal projects weekly.
+
+                            Challenge of coding a project while learning the languages used.
+
+                            Required fast learning and self-starting.
+
+                            MoodBrews.com - An exercise in designing reusable and scalable code. Facial recognition API in the back-end analyzes user image. Data driven tools in the back-end evaluate results and returns a suggested beer.
+Technologies used: Node, Express, Mongoose, MongoDB, Ejs, Javascript, jQuery, AJAX, APIs, and Materialize
+
+WeAreStillCool.com - A social media hub for parents to connect, meet up, and share product reviews. Users can create a profile and upload profile pictures or use their Google ID. The site shows local data from Meetup.com, Facebook events, and Google calendar for parents to create or attend events. 
+Technologies used: React, Node, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack
+                            "
                        
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
@@ -79,6 +88,30 @@ class Resume extends Component {
                         <Skills 
                             skill='ReactJS'
                             progress={60}
+                        />
+                        <Skills 
+                            skill='jQuery'
+                            progress={50}
+                        />
+                        <Skills 
+                            skill='RESTful'
+                            progress={65}
+                        />
+                        <Skills 
+                            skill='Git'
+                            progress={80}
+                        />
+                        <Skills 
+                            skill='RMongoDB'
+                            progress={60}
+                        />
+                        <Skills 
+                            skill='Mocha.js'
+                            progress={55}
+                        />
+                        <Skills 
+                            skill='Firebase'
+                            progress={70}
                         />
                    </Cell>
                </Grid>
