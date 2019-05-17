@@ -10,7 +10,7 @@ class Resume extends Component {
             <div>
                <Grid>
                    <Cell col={4}>
-                       <div style={{textAlign: 'center'}}>
+                       <div style={{textAlign: 'center', marginTop: "50px"}}>
                            <img 
                            src="https://cdn3.iconfinder.com/data/icons/hipster-trendy-vintage-swag/512/beard2-512.png"
                            alt="avatar"
@@ -32,7 +32,7 @@ class Resume extends Component {
                        <p>tylerjsweeney.com</p>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                    </Cell>
-                   <Cell className="resume-right-col" col={8}>
+                   <Cell style = {{marginTop: "50px" }}className="resume-right-col" col={8}>
 
                        <Education
                         startYear={2017}
