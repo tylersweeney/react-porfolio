@@ -20,16 +20,19 @@ class Resume extends Component {
                        <h2 style={{paddingTop: '2em'}}>Tyler J. Sweeney</h2>
                        <h4 style={{color: 'gray'}}>Full Stack Web Developer</h4>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
-                       <p>I am a Full Stack Web Developer with 3+ years experience developing apps and websites. I have worked on contract jobs and individual projects that required knowledge of all aspects from front end to back end, start to finish. I have experience using both Angular and React frameworks. I like to use React because it is expressive, readable, and quick to develop.</p>
+                       <p>Full-Stack Engineer developing websites and applications from the ground up -- from concept, navigation, layout and programming to UX and SEO. Strong background in Javascript, React, Firebase, and RESTful APIs. Hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.
+ </p>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                        <h5>Address</h5>
-                       <p>164 Albert Place, Costa Mesa, Ca 92627</p>
+                       <p>Costa Mesa, CA</p>
                        <h5>Phone</h5>
                        <p>714.501.6400</p>
                        <h5>Email</h5>
-                       <p>tjs@tylerjsweeney.com</p>
+                       <p>ty@tylersweeney.com</p>
                        <h5>Web</h5>
-                       <p>tylerjsweeney.com</p>
+                       <p><a href = "https://www.linkedin.com/in/tylerjsweeney/">LinkedIn</a></p>
+                       <p><a href = "https://github.com/tylersweeney">GitHub</a></p>
+                       <p><a href ="tylerjsweeney.com">tylersweeney.com</a></p>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
                    </Cell>
                    <Cell style = {{marginTop: "50px" }}className="resume-right-col" col={8}>
