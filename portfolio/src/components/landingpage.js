@@ -16,7 +16,7 @@ class LandingPage extends Component {
                             <h1>Full Stack Web Developer</h1>
 
                             <hr/>
-                        <p>HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB</p>
+                        <p> JavaScript | React | NodeJS | HTML/CSS | Firebase | Responsive Web Design</p>
 
                         <div className="social-links">
                             
@@ -27,6 +27,10 @@ class LandingPage extends Component {
                             {/* Github */}
                             <a href="https://github.com/tylersweeney" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                            </a>
+                            {/* Github */}
+                            <a href="https://stackoverflow.com/users/8525667/tyler-sweeney" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-stack-overflow"  aria-hidden="true" />
                             </a>
                             
                         </div>
