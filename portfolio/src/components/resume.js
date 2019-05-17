@@ -65,6 +65,22 @@ class Resume extends Component {
                         groupProjectTwo = "WeAreStillCool.com - A social media hub for parents to connect, meet up, and share product reviews. Users can create a profile and upload profile pictures or use their Google ID. The site shows local data from Meetup.com, Facebook events, and Google calendar for parents to create or attend events."
                         techUsedTwo = "Technologies used: React, Node, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
                         />
+
+                        <Experience
+                        startYear={2019}
+                        endYear={"Present"}
+                        jobName = {"Cosmic Surf City"}
+                        jobLocation = {"Hunting Beach, CA"}
+                        jobDescription = {"Developed a full Shopify store and customized theme and layout."}
+                        />
+
+                        <Experience
+                        startYear={2017}
+                        endYear={2018}
+                        jobName = {"ACRB Supply Co."}
+                        jobLocation = {"Haiku, HI"}
+                        jobDescription = {"Worked with client to build their vision as they had no website to start with."}
+                        />
                         
 
                         <hr style={{borderTop: '3px solid #e22947'}} />
