@@ -11,6 +11,16 @@ class Experience extends Component {
                 <Cell col={8}>
                     <h4 style={{marginTop:'0px'}}>{this.props.jobName}</h4>
                     <p>{this.props.jobDescription}</p>
+                    <p>{this.props.bulletOne}</p>
+                    <p>{this.props.bulletTwo}</p>
+                    <p>{this.props.bulletThree}</p>
+                    <p>{this.props.bulletFour}</p>
+                    <p>{this.props.bulletFive}</p>
+                    <p>{this.props.groupProjectOne}</p>
+                    <h5 style={{marginTop:'0px', marginBottom:'0px'}}>{this.props.techUsedOne}</h5>
+                    <p>{this.props.bulletFive}</p>
+                    <p>{this.props.groupProjectTwo}</p>
+                    <p>{this.props.techUsedTwo}</p>
                 </Cell>
             </Grid>
         )

@@ -52,25 +52,21 @@ class Resume extends Component {
                         startYear={2016}
                         endYear={2017}
                         jobName="UCI Web Dev Bootcamp"
-                        jobDescription= 
-                            "24 week intensive Full Stack Developer Bootcamp
+                        jobDescription= "24 week intensive Full Stack Developer Bootcamp."
+                        bulletOne = "Participated in several group projects that involved coming up with an idea for an app and creating the project start to finish backend to front end."
+                        bulletTwo = "Created personal projects weekly."
+                        bulletThree =  "Challenge of coding a project while learning the languages used."
+                        bulletFour = "Required fast learning and self-starting."
 
-                            Participated in several group projects that involved coming up with an idea for an app and creating the project start to finish backend to front end.
+                        groupProjectOne = "MoodBrews.com - An exercise in designing reusable and scalable code. Facial recognition API in the back-end analyzes user image. Data driven tools in the back-end evaluate results and returns a suggested beer."
+                        techUsedOne = "Technologies used: "
+                        bulletFive = "Node, Express, Mongoose, MongoDB, Ejs, Javascript, jQuery, AJAX, APIs, and Materialize"
 
-                            Created personal projects weekly.
-
-                            Challenge of coding a project while learning the languages used.
-
-                            Required fast learning and self-starting.
-
-                            MoodBrews.com - An exercise in designing reusable and scalable code. Facial recognition API in the back-end analyzes user image. Data driven tools in the back-end evaluate results and returns a suggested beer.
-Technologies used: Node, Express, Mongoose, MongoDB, Ejs, Javascript, jQuery, AJAX, APIs, and Materialize
-
-WeAreStillCool.com - A social media hub for parents to connect, meet up, and share product reviews. Users can create a profile and upload profile pictures or use their Google ID. The site shows local data from Meetup.com, Facebook events, and Google calendar for parents to create or attend events. 
-Technologies used: React, Node, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack
-                            "
-                       
+                        groupProjectTwo = "WeAreStillCool.com - A social media hub for parents to connect, meet up, and share product reviews. Users can create a profile and upload profile pictures or use their Google ID. The site shows local data from Meetup.com, Facebook events, and Google calendar for parents to create or attend events."
+                        techUsedTwo = "Technologies used: React, Node, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
                         />
+                        
+
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
                         <Skills 
