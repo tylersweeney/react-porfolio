@@ -30,20 +30,14 @@ class Contact extends Component {
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-fax" aria-hidden="true"/>
-                                        714.501.6400
-                                    </ListItemContent>
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-envelope" aria-hidden="true"/>
-                                        tjs@tylerjsweeney.com
+                                        ty@tylersweeney.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-skype" aria-hidden="true"/>
-                                        tyler.sweeney
+                                        <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                                        <a href = "https://www.linkedin.com/in/tylerjsweeney/">LinkedIn</a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>

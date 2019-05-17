@@ -28,6 +28,7 @@ class LandingPage extends Component {
                             <a href="https://github.com/tylersweeney" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square"  aria-hidden="true" />
                             </a>
+                            
                         </div>
 
                         </div>
