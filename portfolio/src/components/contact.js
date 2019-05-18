@@ -14,7 +14,7 @@ class Contact extends Component {
                         alt="avatar"
                         style={{height:'250px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>I'm a Full Stack Web Developer with 3+ years experience developing apps and websites. I have worked on contract jobs and individual projects that required knowledge of all aspects from front end to back end, start to finish. I have experience using both Angular and React frameworks. I like to use Angular because it is expressive, readable, and quick to develop. However, I do like to use react when I am looking for a simple and dependable programming solution. I always use JQuery in my RESTful API components that involve DOM Traversal, Event Handling, and AJAX calls. I prefer to use Test Driven Development methods because it is the simplest way to achieve both good quality code and good test coverage. When I first go to implement a new feature, the first question that I ask is whether the existing design is the best design possible that enables me to implement that functionality. My experience, skill set, and methodology allow me to provide complete solutions at any stage and scope of a project.</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>JavaScript has become one of the more important and widely used programming langauges today. Web applications are expected to give users a rich user interface experience.</p>
                     </Cell>
                     <Cell col={6}>
 
@@ -38,6 +38,12 @@ class Contact extends Component {
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                         <a href = "https://www.linkedin.com/in/tylerjsweeney/">LinkedIn</a>
+                                    </ListItemContent>
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                        <i className="fa fa-github-square" aria-hidden="true"/>
+                                        <a href = "https://github.com/tylersweeney">GitHub</a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>

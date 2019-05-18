@@ -20,10 +20,10 @@ class Resume extends Component {
                        <h2 style={{paddingTop: '2em'}}>Tyler J. Sweeney</h2>
                        <h4 style={{color: 'gray'}}>Full Stack Web Developer</h4>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
-                       <p>Full-Stack Engineer developing websites and applications from the ground up -- from concept, navigation, layout and programming to UX and SEO. Strong background in Javascript, React, Firebase, and RESTful APIs. Hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.
+                       <p>Full-Stack Engineer developing websites and applications from the ground up -- from concept, navigation, layout and programming to UX and SEO. Strong background in Javascript, React.js, Firebase, and RESTful APIs. Skilled at writing well designed, testable and efficient code using current best practices in Web development.
  </p>
                        <hr style={{borderTop: '3px solid #833fb2', width: '100%'}} />
-                       <h5>Address</h5>
+                       <h5>Location</h5>
                        <p>Costa Mesa, CA</p>
                        <h5>Phone</h5>
                        <p>714.501.6400</p>
@@ -50,24 +50,6 @@ class Resume extends Component {
                         schoolDescription="Java and Python"/>
 
                         <hr style={{borderTop: '3px solid #e22947'}} />
-  
-                        <Experience 
-                        startYear={2016}
-                        endYear={2017}
-                        jobName="UCI Web Dev Bootcamp"
-                        jobDescription= "24 week intensive Full Stack Developer Bootcamp."
-                        bulletOne = "Participated in several group projects that involved coming up with an idea for an app and creating the project start to finish backend to front end."
-                        bulletTwo = "Created personal projects weekly."
-                        bulletThree =  "Challenge of coding a project while learning the languages used."
-                        bulletFour = "Required fast learning and self-starting."
-
-                        groupProjectOne = "MoodBrews.com - An exercise in designing reusable and scalable code. Facial recognition API in the back-end analyzes user image. Data driven tools in the back-end evaluate results and returns a suggested beer."
-                        techUsedOne = "Technologies used: "
-                        bulletFive = "Node, Express, Mongoose, MongoDB, Ejs, Javascript, jQuery, AJAX, APIs, and Materialize"
-
-                        groupProjectTwo = "WeAreStillCool.com - A social media hub for parents to connect, meet up, and share product reviews. Users can create a profile and upload profile pictures or use their Google ID. The site shows local data from Meetup.com, Facebook events, and Google calendar for parents to create or attend events."
-                        techUsedTwo = "Technologies used: React, Node, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
-                        />
 
                         <Experience
                         startYear={2019}
@@ -85,6 +67,23 @@ class Resume extends Component {
                         jobDescription = {"Worked with client to build their vision as they had no website to start with."}
                         />
                         
+                        <Experience 
+                        startYear={2016}
+                        endYear={2017}
+                        jobName="UCI Web Dev Bootcamp"
+                        jobDescription= "24 week intensive Full Stack Developer Bootcamp."
+                        bulletOne = "Participated in several group projects that involved coming up with an idea for an app and creating the project start to finish backend to front end."
+                        bulletTwo = "Created personal projects weekly."
+                        bulletThree =  "Challenge of coding a project while learning the languages used."
+                        bulletFour = "Required fast learning and self-starting."
+
+                        groupProjectOne = "MoodBrews.com - An exercise in designing reusable and scalable code. Facial recognition API in the back-end analyzes user image. Data driven tools in the back-end evaluate results and returns a suggested beer."
+                        techUsedOne = "Technologies used: "
+                        bulletFive = "Node, Express, Mongoose, MongoDB, Ejs, Javascript, jQuery, AJAX, APIs, and Materialize"
+
+                        groupProjectTwo = "WeAreStillCool.com - A social media hub for parents to connect, meet up, and share product reviews. Users can create a profile and upload profile pictures or use their Google ID. The site shows local data from Meetup.com, Facebook events, and Google calendar for parents to create or attend events."
+                        techUsedTwo = "Technologies used: React, Node, Express, Mongoose, MongoDB, Passport.js, Oauth, Webpack"
+                        />
 
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
