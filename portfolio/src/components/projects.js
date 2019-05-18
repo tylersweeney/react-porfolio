@@ -13,8 +13,8 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                     {/* Project 1 */}
-                    <Grid>
-                        <Cell col={12}>
+                    <Grid >
+                        <Cell style ={{marginTop: '50px'}} col={12}>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#666262', height: '176px', background: 
                         'url(https://i.imgur.com/SpFiqYF.png) bottom /cover'}}>Mario Planner</CardTitle>
@@ -113,7 +113,7 @@ class Projects extends Component {
 
     render() {
         return(
-            <div className="category-tabs">
+            <div style = {{marginTop: '70px'}} className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>

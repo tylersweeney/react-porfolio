@@ -14,7 +14,7 @@ class Contact extends Component {
                         alt="avatar"
                         style={{height:'250px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>JavaScript has become one of the more important and widely used programming langauges today. Web applications are expected to give users a rich user interface experience.</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>JavaScript has become one of the more important and widely used programming langauges today. Web applications are expected to give users a rich interface experience. React.js allows for an even more responsive and user friendly experience. As an athlete and a gamer I have come to understand the need for fast, satisfying user experiences from web applications in both their UI/UX and server response times.</p>
                     </Cell>
                     <Cell col={6}>
 
