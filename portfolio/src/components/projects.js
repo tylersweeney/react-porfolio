@@ -41,7 +41,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://i.imgur.com/eYP0NWb.png) center /cover'}}>Futurama Hangman</CardTitle>
-                        <CardText>A class assignment to create a hangman computer game. These app runs in the browser, and feature dynamically updated HTML powered by JavaScript and jQuery.</CardText>
+                        <CardText>Guess letters based on the clue. The game will restart after a loss or win. Images edited in Photoshop and Illustrator and dynamically updated with JavaScript and jQuery in the HTML DOM.</CardText>
                         <CardActions border>
                             <Button colored><a href="https://github.com/tylersweeney/futuramaHangman" target="_blank" rel="noopener noreferrer">Github</a></Button>
                             <Button colored><a href="https://tylersweeney.github.io/futuramaHangman/" target="_blank" rel="noopener noreferrer">LiveDemo</a></Button>
@@ -54,7 +54,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 
                         'url(https://i.imgur.com/Xjj8Ueq.png) center /cover'}}>SpaceBalls: The RPG</CardTitle>
-                        <CardText>A class assignment to create an RPG game using Javascript, jQuery, and timers</CardText>
+                        <CardText>Choose a character, and then and enemy and play until they defeat the enemy or are defeated and then pick a new enemy. RPG game using Javascript, jQuery, and timers. </CardText>
                         <CardActions border>
                             <Button colored><a href="https://github.com/tylersweeney/spaceBallsTheGame" target="_blank" rel="noopener noreferrer">Github</a></Button>
                             <Button colored><a href="https://tylersweeney.github.io/spaceBallsTheGame/" target="_blank" rel="noopener noreferrer">LiveDemo</a></Button>
